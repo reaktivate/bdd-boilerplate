@@ -1,0 +1,8 @@
+Dockerfile*
+.next
+node_modules
+docker-compose.yml
+.dockerignore
+.git
+scripts/
+.env.*

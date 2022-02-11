@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-reaktivate-rules",
+  "version": "0.0.2",
+  "description": "Custom rules ",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Alex Postnikov",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "jsx-ast-utils": "^3.2.1",
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3"
+  },
+  "engines": {
+    "node": "12.x || 14.x || 15.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "license": "ISC"
+}

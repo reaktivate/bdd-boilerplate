@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "reaktivate-rules"
+  ],
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "sort-imports": "off",
+    "no-console": 0,
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "no-unused-vars": "warn",
+    "react/display-name": 0,
+    "reaktivate-rules/no-usestate-in-tsx": "error",
+    "reaktivate-rules/no-calculations-in-jsx": "error"
+  }
+}
