@@ -3,6 +3,7 @@ import { enableStaticRendering } from 'mobx-react-lite';
 import UiStore from './uiStore';
 import UserStore from './userStore';
 import config from '../lib/config';
+import BooksStore from '@wf/next/src/stores/booksStore';
 
 enableStaticRendering(config().isServer);
 // https://mobx.js.org/configuration.html#configuration-
@@ -17,10 +18,12 @@ configure({
 export default class GlobalStore {
   readonly uiStore: UiStore;
   readonly userStore: UserStore;
+  readonly booksStore: BooksStore;
 
   constructor() {
     this.uiStore = new UiStore(this);
     this.userStore = new UserStore(this);
+    this.booksStore = new BooksStore(this);
   }
 
   async hydrate(initialState?: Partial<GlobalStore>) {

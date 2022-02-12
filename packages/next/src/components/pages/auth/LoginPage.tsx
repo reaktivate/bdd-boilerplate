@@ -14,7 +14,7 @@ import {
 import { useForm } from 'react-hook-form';
 import { ICredentials, LoginController } from './LoginPage.ctrl';
 import { observer } from 'mobx-react';
-import { useControllerState } from '@wf/next/src/lib/hooks/useControllerState';
+import { useControllerState } from '../../../lib/hooks/useControllerState';
 
 const LoginRoute = () => {
   const [controller] = useControllerState(new LoginController());
