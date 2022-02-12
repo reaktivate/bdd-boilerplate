@@ -1,7 +1,18 @@
 # Problem
 With time, all the requirements change. And people in the team change
 
+### Management perspective
+
+* Decline of productivity with time
+* Acceptance criteria
+* "How do i know anything is broken" -> Automated testing
+
+### Developer perspective
+
 * A new "spaghetti code" style 
+* Burying the logic 
+* Complexity for refactoring
+ 
 
 # Solution 
 The borderline between UX logic and Business logic is so complicated, that we want ALL the logic to be separated from presentation. So all the interface logic becomes the SUT (system under test) target.
