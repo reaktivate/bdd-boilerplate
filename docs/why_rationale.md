@@ -29,4 +29,8 @@ The borderline between UX logic and Business logic is so complicated, that we wa
 * Mix of programmer needs and UI blocks into component tree
 ### Back to programmer's peace of mind
 
+"Over the years, I’ve adopted a healthy skepticism about frameworks. While I acknowledge that they can be extremely useful, and save a boatload of time; I also realize that there are costs. Sometimes those costs can mount very high indeed." (c) [Uncle Bbo](https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html)
+
+I surrender none of my autonomy to the frameworks
+
 [Testing logic](https://www.logicroom.co/blog/end-to-end-testing-encourages-bad-ui-architecture)
