@@ -17,3 +17,5 @@ The borderline between UX logic and Business logic is so complicated, that we wa
 * Props is nice mechanism, but overusing it becomes a mess
 * Mix of programmer needs and UI blocks into component tree
 ### Back to programmer's peace of mind
+
+[Testing logic](https://www.logicroom.co/blog/end-to-end-testing-encourages-bad-ui-architecture)
