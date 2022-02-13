@@ -16,7 +16,7 @@ A super-opinionated boilerplate and demo project for BDD approach. The project h
   - src/lib/fsm - rewrite of FSM, [Javascript State Machine](https://github.com/jakesgordon/javascript-state-machine) to fit our needs
 
 # Styling guidelines
-[guidelines.md](docs/guidelines.md)
+See [guidelines.md](docs/guidelines.md)
 
 # MVVC Pattern
 The architecture is based on "[clean code](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)" by Uncle Bob. 
