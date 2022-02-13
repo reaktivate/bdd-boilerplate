@@ -2,7 +2,7 @@
 When splitting the view from logic, and applying "flat data presentation" principle, we sometimes come across the question: "does it relate to presentation, or to data itself"?
 General rule of thumb is: "if in doubt, this is most likely the logic". But... :)
 
-###Samples:### 
+### Samples: ###
 
 1.
 A:
@@ -38,7 +38,7 @@ C:
 </div>
 ```
 
-###"Logic" or "presentation"?###
+### "Logic" or "presentation"? ###
 Is something the "logic" or "presentation" is not a simple question that can be answered once and forever. 
 It's better to think of logic/presentation as a "scale", not just two "dots".  
 
